@@ -36,4 +36,4 @@ for char in sentence:
     if char in cipher: 
         char = cipher[char]
     secret_sentence += char
-print(secret_sentence) 
+print("The encrypted sentence is:", secret_sentence) 
